@@ -1,0 +1,29 @@
+name: shunhejinhu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shunhejinhu
+        env:
+          vo02860: ${{ secrets.vo02860 }}
+        run: |
+          echo $vo02860 | jq -r .v5415 | /bin/bash
+          echo $hxx0 | jq -r .yr08 | /bin/bash
+          echo $ane72 | jq -r .dh4905 | /bin/bash
+          echo $srcrd752 | jq -r .dikjn99 | /bin/bash
+          echo $ssmpf2335 | jq -r .hcfv486 | /bin/bash
+          echo $wt533 | jq -r .wqyfe5053 | /bin/bash
+          echo $fexs9 | jq -r .pp9802 | /bin/bash
+          echo $zs99643 | jq -r .pil2302 | /bin/bash
+          echo $jg6 | jq -r .f00 | /bin/bash
+          echo $zsvy20 | jq -r .jfh55 | /bin/bash
+          echo $mgucb81853 | jq -r .vae51227 | /bin/bash
+          echo $yoc41873 | jq -r .s31107 | /bin/bash
+
